@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    border: 2px solid black;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+.slide_show{
+    width: 100vw;
+    height: 500px;
+}
+.para_img{
+    color: rgb(243, 150, 10);
+    font-size: 17px;
+}
+.head_img{
+    color: black;
+    font-size: 23px;
+}
+.card_container{
+    width: 85vw;
+    margin: auto;
+    margin-top: 100px;
+}
+@media screen and (min-width:992px)
+{
+    .nav-item{
+        font-size: 18px;
+    }
+    .nav-item:hover{
+        background-color: rgb(23, 54, 226,0.3);
+        margin: auto;
+        padding: auto;
+        border-radius: 4px;
+    }
+}
+@media screen and (max-width:600px)
+{
+    .slide_show{
+        width: 100vw;
+        height: 250px;
+    }
+}
