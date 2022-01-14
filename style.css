@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
 }
+.button_log_sign{
+    display: flex;
+}
+.button_log_sign_mobile{
+    display: none;
+}
 #logo{
     border: 2px solid black;
     padding: 4px 8px;
@@ -41,5 +47,13 @@
     .slide_show{
         width: 100vw;
         height: 250px;
+    }
+    .button_log_sign{
+        display: none;
+    }
+    .button_log_sign_mobile{
+        display: flex;
+        margin-top: 20px;
+        margin-left: -6px;
     }
 }
